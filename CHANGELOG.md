@@ -6,6 +6,10 @@
 
 ## [Unreleased]
 
+## Bug Fixes
+
+- Add db.json to root ([6172b2a](https://github.com/noclocks/demo-jsonserver/commit/6172b2a21cf1946a1a63d1129d677934d13f4195))  - (Jimmy Briggs)
+
 ## Refactoring
 
 - Cleanup repository ([81d08c9](https://github.com/noclocks/demo-jsonserver/commit/81d08c9aa81163d2519990d4cd82468db15adfbb))  - (Jimmy Briggs)
