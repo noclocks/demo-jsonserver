@@ -1,11 +1,15 @@
-# Generic Project Template
+# Demo JSON Server
 
 > [!NOTE]
-> This is a generic project template that can be used as a starting point for any project.
+> Access the fake REST API at <https://my-json-server.typicode.com/noclocks/demo-jsonserver>.
+
+> [!NOTE]
+> This is a demo project that uses [JSON Server](https://my-json-server.typicode.com/) to create a fake REST API for
+> prototyping and testing.
 
 ## Contents
 
-- [Generic Project Template](#generic-project-template)
+- [Demo JSON Server](#demo-json-server)
   - [Contents](#contents)
   - [Introduction](#introduction)
   - [Project Structure](#project-structure)
@@ -14,58 +18,33 @@
 
 ## Introduction
 
-This is a generic project template that can be used as a starting point for any project.
+This is a demo project that uses [JSON Server](https://my-json-server.typicode.com/) to create a fake REST API for
+prototyping and testing.
 
-It includes a basic project structure and default files that can be used to start a new project.
+To accomplish this, the following steps were taken:
 
-## Root Files
-
-The root of the project contains the following files:
-
-- [`.gitignore`](./.gitignore): A default `.gitignore` file that can be used to ignore common files and directories. Currently it ignores typical files and directories for the following languages or frameworks:
-  - Windows (i.e. `Thumbs.db`, `desktop.ini`, `.lnk` files, etc.)
-  - macOS (i.e. `.DS_Store` files)
-  - Python (i.e. `.venv`, `.pyc`, `.pyo`, etc.)
-  - Node.js (i.e. `node_modules`, `npm-debug.log`, etc.)
-
-- [`.gitattributes`](./.gitattributes): A default `.gitattributes` file that can be used to specify attributes for the repository. Currently it applies attributes associated with the following languages or frameworks:
-  - General Commonly Used Attributes
-  - Markdown
-  - PowerShell
-  - Python
-  - Web Development (i.e. HTML, CSS, JavaScript, etc.)
-
-- [`.editorconfig`](./.editorconfig): A default `.editorconfig` file that can be used to define and maintain consistent coding styles between different editors and IDEs.
-
-- [`LICENSE.md`](./LICENSE.md): No Clocks Default Open Source License: [Unlicense](https://unlicense.org/).
-
-- [`README.template.md`](./README.template.md): A template for the actual project's `README.md` file that can be used to provide information about the project.
-
-- [`CHANGELOG.md`](./CHANGELOG.md): A default `CHANGELOG.md` file that can be used to provide a log of all changes made to the project.
-
-## GitHub
-
-The `.github` directory contains the following files:
-
-- `dependabot.yml`: A default `dependabot.yml` file that can be used to configure Dependabot for the repository.
-
-- `workflows`: A directory that contains GitHub Actions workflows for the repository. Currently it contains the following workflow:
-
-
-
+1. Created this repository
+2. Added a `db.json` file with some data
+3. Automatically deployed to <https://my-json-server.typicode.com/noclocks/demo-jsonserver>
 
 ## Project Structure
 
+> [!NOTE]
+> Note that this project implements the deployment above while also providing a local development environment.
+
 The project structure is as follows:
 
-```plaintext
-.
-├── .github
-│   └── workflows
-│       └── build.yml
-├── .gitignore
-├── LICENSE
+- [`db.json`](./db.json): A JSON file that contains the data for the fake REST API.
+- [`package.json`](./package.json): A Node.js package file that contains the dependencies and scripts for the project.
 
+## Contributing
 
+Contributions are welcome! Please feel free to submit a pull request if you have any improvements or suggestions.
 
-Reneric Repository Template with Default Files and Structure
+## License
+
+This project is licensed under the [Unlicense](./LICENSE.md).
+
+***
+
+(c) [No Clocks, LLC](https://githubc.com/noclocks) | 2024

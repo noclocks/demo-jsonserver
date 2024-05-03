@@ -1,0 +1,42 @@
+HTTP/1.1 200 OK
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+content-type: application/json
+Date: Fri, 03 May 2024 19:48:35 GMT
+Connection: close
+Content-Length: 1062
+
+{
+  "id": "1",
+  "title": "Consectetur est iste asperiores dolores quis.s",
+  "slug": "tenetur-deserunt-suscipit",
+  "content": "Eligendi maiores alias rerum officiis atque corrupti ea voluptas. Molestiae sunt nobis magnam incidunt tempore dignissimos. Natus accusamus rerum occaecati. Maiores laborum velit fugiat laborum excepturi. Sunt alias quia est et veritatis. Sint aliquid deserunt et ea iusto. In ipsa sit et perspiciatis eaque. Atque doloribus itaque. Et ipsam sunt aspernatur possimus mollitia dolorem. Ea tempore laudantium sit ut.",
+  "hit": 972543,
+  "category": {
+    "id": "3"
+  },
+  "user": {
+    "id": 8
+  },
+  "status": "rejected",
+  "status_color": "red",
+  "createdAt": "2023-11-25T03:03:42.815Z",
+  "publishedAt": "2023-03-31T07:24:10.237Z",
+  "image": [
+    {
+      "url": "http://loremflickr.com/640/480/abstract",
+      "name": "2f4ff7b5-fe30-4ee5-84cd-566efb1aa1c4",
+      "status": "done",
+      "type": "image/jpeg",
+      "uid": "751113e7-b449-4657-a322-81bee11fc82d"
+    }
+  ],
+  "tags": [
+    7,
+    6,
+    5
+  ],
+  "language": 3
+}
