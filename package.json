@@ -1,7 +1,5 @@
 {
   "name": "demo-jsonserver",
-  "module": "index.ts",
-  "type": "module",
   "scripts": {
     "start": "json-server --watch src/db.json"
   },
